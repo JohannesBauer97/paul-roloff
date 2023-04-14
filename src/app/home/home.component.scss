@@ -7,8 +7,14 @@
 
 .centered-div > p {
   font-size: 10vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 1);
+  padding: 8px;
+  border-radius: 16px;
 }
 
 .centered-div > p:hover {
   cursor: pointer;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 0.5);
 }
