@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-div > p {
+  font-size: 10vw;
+}
+
+.centered-div > p:hover {
+  cursor: pointer;
+}
