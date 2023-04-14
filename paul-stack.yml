@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   paulweb:
-    image: serverlein/paulweb:latest
+    image: serverlein/paul-roloff:latest
     restart: always
     networks:
       traefik-public:
