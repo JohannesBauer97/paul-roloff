@@ -8,3 +8,6 @@ updates:
       deps:
         patterns:
           - "*"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major","version-update:semver-minor"]
