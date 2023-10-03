@@ -4,6 +4,10 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+    groups:
+      deps:
+        patterns:
+          - "*"
   - package-ecosystem: "npm" 
     directory: "/"
     schedule:
