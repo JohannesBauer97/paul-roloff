@@ -8,13 +8,19 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-    <div class="centered-div">
-        <p id="displayedAge" onclick="switchAgeFormat()">Calculating...</p>
-    </div>
-</div>
-
-<script src="random-background.js"></script>
-<script src="script.js"></script>
+<script src="p5.min.js"></script>
+<script src="vanta.topology.min.js"></script>
+<script>
+VANTA.TOPOLOGY({
+    el: "body",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00
+})
+</script>
 </body>
 </html>
